@@ -31,5 +31,6 @@ function onLoadOfPage(){
         reverseSliderItem()
     })
 }
+
 window.onload = onLoadOfPage;
 
