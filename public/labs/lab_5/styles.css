@@ -1,0 +1,118 @@
+#mapid { height: 500px; }
+body {
+    color:black;
+    padding: 50x 0;
+    text-align: center;
+    margin: 0px;
+}
+
+html {
+    font-size: 12px;
+    background-color: #CAF4F4
+
+}
+
+.header{
+    font-size: 2em;
+    color: #373536;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    margin: auto; 
+    font-weight: 900;
+}
+label {
+    font-size: 18px;
+}
+
+.MainContainer {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    max-width: 800px;
+    min-height: 100px;
+    margin: auto;
+}
+
+.Search {
+    width: 350px;
+    height: 35px;
+}
+
+.list {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    width: 75%;
+    padding: 10px 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+#Search {
+    width: 500px;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #373536;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#SearchContainer {
+    position: relative;
+    margin: auto;
+}
+
+#SearchContainer ul{
+  width: 500px;
+  list-style: none;
+  margin: auto;
+  padding: 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+#SearchContainer li{
+  border-bottom: 1px solid #F04D39(16, 129, 21);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom,#f1d07b 0%, #ecb220 80%);
+  display: block;
+  font-size: 20px;
+}
+
+.RestaurantsList {
+  border-top: 1px solid pink ;
+  margin-bottom: 100px;
+}
+
+  @media (min-width: 1000px){
+    h1 {
+      font-size: 5rem;
+    }
+    .first-half.page {
+      width: 48%;
+    }
+    .column:first-child, .columns:first-child {
+      margin-left: 0px;
+    }
+    
+  }
+
+  .name{
+    text-shadow: 2px 2px rgb(170, 170, 170);
+  }
+.button{
+    width: 100px;
+    height: 50px;
+}
